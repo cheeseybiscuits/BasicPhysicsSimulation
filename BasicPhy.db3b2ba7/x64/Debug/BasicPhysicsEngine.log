@@ -1,9 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (BasicPhy.db3b2ba7\x64\Debug\) contains files shared from another project (BasicPhysicsEngine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
-C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\main.cpp(59,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\main.cpp(62,50): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\main.cpp(63,22): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\main.cpp(64,50): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\main.cpp(80,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\main.cpp(87,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  BasicPhysicsEngine.vcxproj -> C:\Users\abiel\source\repos\C++\BasicPhysicsEngine\x64\Debug\BasicPhysicsSimulation.exe
