@@ -78,6 +78,7 @@ int main()
         {
             rectanglePos.y = height - size / 2;
             v_y = -v_y * 0.45;
+            v_x = v_x * 0.8;
         }
 
         if ((rectanglePos.x < size / 2 || rectanglePos.x > width - size / 2))
@@ -85,12 +86,11 @@ int main()
             rectanglePos.x < size / 2 ? rectanglePos.x = size / 2 : NULL;
             rectanglePos.x > width - size / 2 ? rectanglePos.x = width - size / 2 : NULL;
             v_x = -v_x * 0.35;
-
-            if (abs(v_x) < 5.0)
-            {
-                v_x = 0;
-            }
         }
+
+        if (abs(v_x) < 10) v_x = 0;
+        if (abs(v_y) < 10) v_y = 0;
+
 
         // update pos
         rectangle.setPosition(rectanglePos);
