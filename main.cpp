@@ -1,4 +1,5 @@
 #include "SFML/Graphics.hpp"
+#include <cmath>
 #include <iostream>
 
 const int width = 1280;
